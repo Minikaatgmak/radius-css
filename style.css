@@ -1,0 +1,44 @@
+:root {
+  --hover-button-color: #0a1128;
+  --color-text-hover: #d6eeff;
+}
+
+img {
+  border-radius: 5px;
+  box-shadow: 11px 10px 41px 7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 11px 10px 41px 7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 10px 41px 7px rgba(0, 0, 0, 0.75);
+}
+
+button {
+  border-radius: 0.5rem;
+  box-shadow: 11px 10px 41px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 11px 10px 41px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 10px 41px -6px rgba(0, 0, 0, 0.75);
+}
+
+/*
+change the ":root" to make the color more beautiful, if you don't change it, it will stay the default radius-css color
+*/
+
+button:hover {
+  background-color: var(--hover-button-color);
+  color: var(--color-text-hover);
+}
+
+input {
+  border-radius: 3.5px;
+  box-shadow: 11px 10px 41px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 11px 10px 41px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 10px 41px -6px rgba(0, 0, 0, 0.75);
+}
+
+input:hover {
+    background-color: var(--hover-button-color);
+    color: #d6eeff;
+}
+
+div {
+    border-radius: 5px;
+}
+
