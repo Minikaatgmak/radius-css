@@ -1,2 +1,2 @@
 # radius-css
-This repository makes some things look prettier, rounder and more.
+This repository makes the websites more beaultiful and etc. 
